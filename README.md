@@ -10,16 +10,20 @@ Allow use placeholder as mask pattern
 Mask rules
 ===============
 '~' means alpha
+
 '#' means digit
+
 Its possible combine it any way you like
 
 
 Usage
 ===============
 #import "NSTextFieldMask.h"
+
 add <NSTextFieldMaskDelegate> to controller
 
 manualy:
+
 create UIObject
 
     NSTextFieldMask*tf = [[NSTextFieldMask alloc] initWithFrame:CGRectMake(20, 340, 400, 40)];
@@ -30,6 +34,7 @@ create UIObject
     tf.maskPlaceholderSymbolNumber = @"%";
     tf.placeholder = @"NUM:### ALPHA:~~~"; //require
     [self.view addSubview:tf];
+    
 IB
 
 1 add UITextField
