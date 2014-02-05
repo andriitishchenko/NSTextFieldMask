@@ -1,3 +1,5 @@
+![alt tag](https://raw.github.com/andriitishchenko/NSTextFieldMask/master/demoImage.png)
+
 TESTED NOT ENOUGH
 ===============
 
