@@ -10,5 +10,6 @@
 #import "NSTextFieldMask.h"
 
 @interface ViewController : UIViewController<NSTextFieldMaskDelegate>
+@property (weak, nonatomic) IBOutlet NSTextFieldMask *test;
 
 @end

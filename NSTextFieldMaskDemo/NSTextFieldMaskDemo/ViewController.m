@@ -20,7 +20,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    NSTextFieldMask*tf = [[NSTextFieldMask alloc] initWithFrame:CGRectMake(20, 340, 400, 40)];
+    NSTextFieldMask*tf = [[NSTextFieldMask alloc] initWithFrame:CGRectMake(20, 160, 400, 40)];
     tf.mask_delegate = self;
     tf.maskPlaceholderColor = [UIColor greenColor];
     tf.textColor = [UIColor redColor];
@@ -35,6 +35,13 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+//
+//-(void)viewDidAppear:(BOOL)animated
+//{
+//    [super viewDidAppear:animated];
+//    [self.test removeFromSuperview];
+//    self.test = nil;
+//}
 
 -(void)textFieldMask:(NSTextFieldMask*)tf continueWithString:(NSString*)string
 {
