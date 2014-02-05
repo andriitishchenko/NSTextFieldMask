@@ -31,6 +31,7 @@ create UIObject
     tf.placeholder = @"NUM:### ALPHA:~~~"; //require
     [self.view addSubview:tf];
 IB
+
 1 add UITextField
 2 set class as NSTextFieldMask
 3 set .mask_delegate to controller
