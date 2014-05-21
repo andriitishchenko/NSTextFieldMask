@@ -236,7 +236,7 @@
 {
     [self.formatMaskArray removeAllObjects];
     [self.valueMaskArray removeAllObjects];
-    if (!mask || mask==[NSNull null]) {
+    if (!mask || mask== (id)[NSNull null]) {
         [self displayText];
         return;
     }
